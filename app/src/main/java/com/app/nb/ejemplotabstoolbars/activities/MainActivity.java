@@ -39,24 +39,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
 
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                Toast.makeText(MainActivity.this, "Seleccionado" + tab.getText(), Toast.LENGTH_SHORT).show();
-                int position = tab.getPosition();
-                viewPager.setCurrentItem(position);
-            }
 
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-                Toast.makeText(MainActivity.this, "No seleccionado " + tab.getText(), Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-                Toast.makeText(MainActivity.this, "Reseleccionado " + tab.getText(), Toast.LENGTH_SHORT).show();
-            }
-        });
 
     }
 
