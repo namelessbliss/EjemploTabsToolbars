@@ -5,8 +5,8 @@ Ejemplo de Tabs:
 
 <table style="width:100%">
 	<tr>
-		<td><img src="https://github.com/namelessbliss/MyMail/blob/master/capturas/1.png" ></td>
-		<td><img src="https://github.com/namelessbliss/MyMail/blob/master/capturas/2.png" ></td>
-		<td><img src="https://github.com/namelessbliss/MyMail/blob/master/capturas/3.png" ></td>
+		<td><img src="https://github.com/namelessbliss/EjemploTabsToolbars/blob/master/capturas/1.png" ></td>
+		<td><img src="https://github.com/namelessbliss/EjemploTabsToolbars/blob/master/capturas/2.png" ></td>
+		<td><img src="https://github.com/namelessbliss/EjemploTabsToolbars/blob/master/capturas/3.png" ></td>
 	</tr>
 </table> 
